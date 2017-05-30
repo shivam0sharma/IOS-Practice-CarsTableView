@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		40ECFB841EDE157700C74D5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ECFB831EDE157700C74D5D /* AppDelegate.swift */; };
-		40ECFB861EDE157700C74D5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ECFB851EDE157700C74D5D /* ViewController.swift */; };
 		40ECFB891EDE157700C74D5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40ECFB871EDE157700C74D5D /* Main.storyboard */; };
 		40ECFB8B1EDE157700C74D5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40ECFB8A1EDE157700C74D5D /* Assets.xcassets */; };
 		40ECFB8E1EDE157700C74D5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40ECFB8C1EDE157700C74D5D /* LaunchScreen.storyboard */; };
+		40ECFB961EDE162800C74D5D /* CarsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ECFB951EDE162800C74D5D /* CarsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		40ECFB801EDE157700C74D5D /* CarsTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarsTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40ECFB831EDE157700C74D5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40ECFB851EDE157700C74D5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40ECFB881EDE157700C74D5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40ECFB8A1EDE157700C74D5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40ECFB8D1EDE157700C74D5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40ECFB8F1EDE157700C74D5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40ECFB951EDE162800C74D5D /* CarsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				40ECFB831EDE157700C74D5D /* AppDelegate.swift */,
-				40ECFB851EDE157700C74D5D /* ViewController.swift */,
+				40ECFB951EDE162800C74D5D /* CarsTableViewController.swift */,
 				40ECFB871EDE157700C74D5D /* Main.storyboard */,
 				40ECFB8A1EDE157700C74D5D /* Assets.xcassets */,
 				40ECFB8C1EDE157700C74D5D /* LaunchScreen.storyboard */,
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40ECFB861EDE157700C74D5D /* ViewController.swift in Sources */,
+				40ECFB961EDE162800C74D5D /* CarsTableViewController.swift in Sources */,
 				40ECFB841EDE157700C74D5D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
